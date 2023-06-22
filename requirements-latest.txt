@@ -1,0 +1,9 @@
+huggingface_hub
+ipykernel
+langchain
+openai
+python-dotenv
+semantic-kernel
+torch
+torchvision
+transformers
