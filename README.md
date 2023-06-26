@@ -4,53 +4,32 @@ This repo provides starter code for common AI services and tools.
 
 ### AI Services
 
-<style>
-  table { border-collapse:collapse; border:none; }
-  th, td { border: none; }
-</style>
 <table>
-  <tr>
-    <td style="width:85px; text-align:center">
-        <a href="./notebooks/00-get-started/00-openai.ipynb"><img src="./docs/images/logo-openai-light.png" height="50"/></a>
-    </td>
-    <td style="width:85px; text-align:center">
-        <a href="./notebooks/00-get-started/00-azure-openai.ipynb"><img src="./docs/images/logo-azure.png" height="50"/></a>
-    </td>
-    <td style="width:85px; text-align:center">
-        <a href="./notebooks/00-get-started/00-huggingface.ipynb"><img src="./docs/images/logo-huggingface.png" height="50"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" style="text-align:center">
-        <a href="./notebooks/00-get-started/00-openai.ipynb">OpenAI</a>
-    </td>
-    <td valign="top" style="text-align:center">
-        <a href="./notebooks/00-get-started/00-azure-openai.ipynb">Azure OpenAI</a>
-    </td>
-    <td valign="top" style="text-align:center">
-        <a href="./notebooks/00-get-started/00-huggingface.ipynb">Hugging Face</a>
-    </td>
-  </tr>
+<tr>
+<td><a href="./notebooks/00-get-started/00-openai.ipynb"><img src="./docs/images/logo-openai-light.png" height="50"/></a></td>
+<td><a href="./notebooks/00-get-started/00-openai.ipynb">OpenAI</a></td>
+</tr>
+<tr>
+<td><a href="./notebooks/00-get-started/00-azure-openai.ipynb"><img src="./docs/images/logo-azure.png" height="50"/></a></td>
+<td><a href="./notebooks/00-get-started/00-azure-openai.ipynb">Azure OpenAI</a></td>
+</tr>
+<tr>
+<td><a href="./notebooks/00-get-started/00-huggingface.ipynb"><img src="./docs/images/logo-huggingface.png" height="50"/></a></td>
+<td><a href="./notebooks/00-get-started/00-huggingface.ipynb">Hugging Face</a></td>
+</tr>
 </table>
 
 ### AI Tools
+
 <table>
-  <tr>
-    <td style="width:85px; text-align:center">
-        <a href="./notebooks/00-get-started/00-langchain.ipynb"><img src="./docs/images/logo-langchain.png" height="50"/></a>
-    </td>
-    <td style="width:85px; text-align:center">
-        <a href="./notebooks/00-get-started/00-semantic-kernel.ipynb"><img src="./docs/images/logo-semantickernel.png" height="50"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" style="text-align:center">
-        <a href="./notebooks/00-get-started/00-langchain.ipynb">LangChain</a>
-    </td>
-    <td valign="top" style="text-align:center">
-        <a href="./notebooks/00-get-started/00-semantic-kernel.ipynb">Semantic Kernel</a>
-    </td>
-  </tr>
+<tr>
+<td><a href="./notebooks/00-get-started/00-langchain.ipynb"><img src="./docs/images/logo-langchain.png" height="50"/></a></td>
+<td><a href="./notebooks/00-get-started/00-langchain.ipynb">LangChain</a></td>
+</tr>
+<tr>
+<td><a href="./notebooks/00-get-started/00-semantic-kernel.ipynb"><img src="./docs/images/logo-semantickernel.png" height="50"/></a></td>
+<td><a href="./notebooks/00-get-started/00-semantic-kernel.ipynb">Semantic Kernel</a></td>
+</tr>
 </table>
 
 ### Prerequisites
@@ -63,7 +42,7 @@ This repo provides starter code for common AI services and tools.
 ### Initial Setup
 
 1. Clone or download this repo
-1. Open a terminal and change directory: `cd ai-tools`
+1. Open a terminal and change directory: `cd ai-quickstarts`
 1. Rename [.env.sample](.env.sample) to `.env`
 1. Edit `.env` to add your keys for various AI services
 1. Create virtual environment: `python3 -m venv env`
