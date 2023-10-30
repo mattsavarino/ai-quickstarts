@@ -1,6 +1,6 @@
 huggingface_hub==0.15.1
 ipykernel==6.23.1
-langchain==0.0.195
+langchain==0.0.325
 openai==0.27.8
 python-dotenv==1.0.0
 semantic-kernel==0.3.0.dev0
